@@ -1,18 +1,23 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/test_wiki/",
   title: "KyWiki",
   description: "A Site For Jetson Orin",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'C1902', link: '/c1902' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
+      {
+        text: 'C1902 载板',
+        items: [
+          { text: '产品介绍', link: '/c1902' }
+        ]
+      },
       {
         text: 'Examples',
         items: [
