@@ -4,22 +4,21 @@ layout: home
 
 hero:
   name: "KyWiki"
-  text: "A Site For Jetson Orin"
-  tagline: My great project tagline
+  text: "Jetson Orin 载板文档站"
+  tagline: 控元科技产品文档
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: C1902 产品介绍
+      link: /c1902
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 刷机教程
+      link: /flashing-guide
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: C1902 载板
+    details: Jetson Orin Nano/NX 第三方载板，与原厂完全兼容
+  - title: SUPER 模式刷机
+    details: 支持命令行刷入 SUPER 固件，解锁 25W 性能模式
+  - title: 中英双语
+    details: 支持简体中文和 English
 ---
-
