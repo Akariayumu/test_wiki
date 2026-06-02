@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 const rootNav = [
   { text: 'Home', link: '/' },
   { text: 'C1902', link: '/c1902' },
+  { text: '刷机教程', link: '/flashing-guide' },
   { text: 'Examples', link: '/markdown-examples' }
 ]
 
@@ -10,7 +11,8 @@ const rootSidebar = [
   {
     text: 'C1902 载板',
     items: [
-      { text: '产品介绍', link: '/c1902' }
+      { text: '产品介绍', link: '/c1902' },
+      { text: '刷机教程', link: '/flashing-guide' }
     ]
   },
   {
@@ -25,6 +27,7 @@ const rootSidebar = [
 const enNav = [
   { text: 'Home', link: '/en/' },
   { text: 'C1902', link: '/en/c1902' },
+  { text: 'Flashing Guide', link: '/en/flashing-guide' },
   { text: 'Examples', link: '/en/markdown-examples' }
 ]
 
@@ -32,7 +35,8 @@ const enSidebar = [
   {
     text: 'C1902 Carrier Board',
     items: [
-      { text: 'Product Introduction', link: '/en/c1902' }
+      { text: 'Product Introduction', link: '/en/c1902' },
+      { text: 'Flashing Guide', link: '/en/flashing-guide' }
     ]
   },
   {
