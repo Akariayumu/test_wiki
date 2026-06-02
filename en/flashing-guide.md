@@ -1,3 +1,7 @@
+---
+title: C1902 Flashing Guide
+---
+
 # C1902 System Flashing Guide
 
 ::: tip Preparation
